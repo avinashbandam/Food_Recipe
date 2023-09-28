@@ -4,6 +4,7 @@ import Products from './Products'
 const App = () => {
   const [search, setSearch] = useState('');
   const [data, setData] = useState([]);
+  //using Edamam API
   const YOUR_APP_ID = "f599074e";
   const YOUR_APP_KEY = "ea3b77b4ae00978205dc34cf8b15c05c";
   
